@@ -1,3 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+/* footer start */
+.footerAni{
+    transition: 0.3s ease-in;
+    animation: updown 1s infinite;
+}
+
+
+@keyframes updown {
+    0% {
+      padding: 0px;
+    }
+    50% {
+      padding: 4px;
+    }
+    100% {
+      padding: 0px;
+    }
+  }
+
+  .social_icon_link ul li {
+    font-size: 30px;
+    padding: 0px 15px;
+  }
+  .legalty {
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.651);
+  }
+ /* footer end */
