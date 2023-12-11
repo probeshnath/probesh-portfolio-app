@@ -5,7 +5,7 @@ import Education from '../components/Education'
 const Home = () => {
     return (
         <div>
-            {/* <HeroSection /> */}
+            <HeroSection />
             <Education />
         </div>
     )
