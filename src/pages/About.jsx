@@ -34,11 +34,11 @@ const About = () => {
                 with 2 years of experience! I'm quick to grab new ideas and
                 concepts to develop creative and attractive Web design and
                 development. I'm much experienced in HTML, CSS, Bootstrap,
-                JAVASCRIPT, SCSS,TALIWIND CSS ,REACT JS,NODE JS ,EXPRESS JS
+                JAVASCRIPT, SCSS, TALIWIND CSS ,REACT, NODE JS, EXPRESS JS
                 ,MONGODB ,Material-UI ,GIT & GITHUB Also.Your Satisfaction is
                 my first priority.I pride myself on doing quality work and
-                maintain excellent communication.Already I have created 100s
-                of websites for my clients.My goal is to deliver work with
+                maintain excellent communication.Already I have created 20+
+                 websites. My goal is to deliver work with
                 honesty and timely.Feel free to Inbox me for your project
                 plan. Thanks
               </p>
@@ -63,7 +63,7 @@ const About = () => {
                   <span className="bar bar4"></span>
                 </li>
                 <li>
-                  <h5>Javascript (78%)</h5>
+                  <h5>Javascript </h5>
                   <span className="bar bar6"></span>
                 </li>
                 <li>
