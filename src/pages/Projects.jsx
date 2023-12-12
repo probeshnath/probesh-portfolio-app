@@ -71,7 +71,7 @@ const Projects = () => {
          
               <div key={inx} className="border px-3 py-5 bg-white md:flex" >
     
-                <div className="flex-1 px-6 h-32 w-52" >
+                <div className="flex-1 py-3  px-6 w-full lg:w-52" >
                   <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
                     {
                       project?.image?.map((img,inx) =>(

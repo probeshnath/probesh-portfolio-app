@@ -5,12 +5,14 @@ import About from './About'
 import Projects from './Projects'
 import Contact from './Contact'
 import Count from '../components/Count'
+import Services from '../components/Services'
 
 const Home = () => {
     return (
         <div className='bg-black'>
             <HeroSection />
             <About />
+            <Services />
             <Education />
             <Count />
             <Projects />
