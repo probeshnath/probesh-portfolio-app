@@ -5,11 +5,11 @@ const Footer = () => {
   return (
     <div className="bg-black text-white">
     <div className="">
-      <div className="flex flex-col justify-center items-center text-center py-10 -mt-20">
+      <div className="flex flex-col justify-center items-center text-center py-10 -mt-10">
      
           <div className="absolute -mt-24">
-            <Link href="#home" title="Back to Top">
-              <FaChevronUp className="text-3xl text-gray-300 w-12 h-12 bg-gray-100 rounded-full footerAni hover:bg-orange-500"  />
+            <Link to="#home" title="Back to Top">
+              <FaChevronUp className="text-xl text-gray-300 w-10 h-10 bg-gray-100 rounded-full footerAni hover:bg-orange-500"  />
             </Link>
           </div>
     
