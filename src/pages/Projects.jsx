@@ -69,13 +69,13 @@ const Projects = () => {
             projects.map((project,inx) =>(
               <>
          
-              <div className="border px-3 py-5 bg-white md:flex" >
+              <div key={inx} className="border px-3 py-5 bg-white md:flex" >
     
                 <div className="flex-1 px-6 h-32 w-52" >
                   <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
                     {
                       project?.image?.map((img,inx) =>(
-                        <SwiperSlide>
+                        <SwiperSlide key={inx}>
                           <img className="w-full h-52 rounded-lg" src={img} key={inx} alt={inx}/>
                         </SwiperSlide>
                       ))
