@@ -60,11 +60,11 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className='py-10 bg-orange-100 min-h-screen'>
+    <div className='py-16 bg-gray-900 min-h-screen'>
       <h2 className='text-4xl text-center font-bold'>My recent Projects</h2>
       <div className='max-w-7xl mx-auto mt-5 '>
         {/* all projects */}
-        <div>
+        <div className="flex flex-col gap-4 ">
           {
             projects.map((project,inx) =>(
               <>

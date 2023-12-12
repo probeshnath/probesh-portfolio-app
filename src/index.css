@@ -10,6 +10,53 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
+/* count start */
+#count {
+    background-image: linear-gradient(
+        to bottom,
+        rgb(150 141 141 / 52%),
+        rgb(25 21 24 / 70%)
+      ),
+      url(https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .wrapper_count {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+    padding-bottom: 50px;
+  }
+  .count-1:first-child {
+    margin-left: 80px;
+  }
+  .count-1 {
+    width: 300px;
+    padding-top: -50px;
+  }
+  .count-1 div {
+    display: flex;
+    /* justify-items: center;
+    align-items: center; */
+  }
+  .count-1 div img {
+    width: 70px;
+    color: #ddd;
+  }
+  .count-1 div span {
+    font-size: 50px;
+    color: rgb(219 219 219);
+    font-weight: bold;
+  }
+  .count-1 p {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(172, 161, 161);
+  }
+/* cound end */
+
 /* Education start */
 .education {
     background: #f4f4fa;

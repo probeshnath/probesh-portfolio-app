@@ -4,6 +4,7 @@ import Education from '../components/Education'
 import About from './About'
 import Projects from './Projects'
 import Contact from './Contact'
+import Count from '../components/Count'
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <HeroSection />
             <About />
             <Education />
+            <Count />
             <Projects />
             <Contact />
             

@@ -1,25 +1,25 @@
 import { FaBookOpen } from "react-icons/fa6";
 const Education = () => {
     return (
-        <div className="education" id="education">
+        <div className=" bg-gray-900" id="education">
             {/* <div className="container"> */}
-                <div className="wrapper max-w-7xl mx-auto px-3 py-8">
-                    <div className="education_side">
+                <div className=" max-w-7xl mx-auto px-3 py-8">
+                    <div className="education_side flex-1">
                        
-                            <h2 className="text-3xl">Education</h2>
+                            <h2 className="text-3xl text-center mb-3">Education</h2>
                         
-                        <div className="education_div w-full lg:flex justify-center items-center mx-auto">
+                        <div className="education_div w-full lg:flex justify-center  gap-3 mx-auto">
                             
                                 <div className="education_single_div flex-1">
-                                    <div className="education_single_left">
+                                    {/* <div className="education_single_left">
                                         <FaBookOpen />
-                                    </div>
+                                    </div> */}
                                     <div className="education_single_right">
                                         <div>
-                                            <h1 className="text-black text-xl">
+                                            <h1 className="text-black w-fit text-xl">
                                                 Shahjalal University of Science and Techenology,Sylhet
                                             </h1>
-                                            <span>-(2019 - Present)</span>
+                                            <span className="text-left">-(2019 - Present)</span>
                                         </div>
                                         <p>BSS</p>
                                         <p>Department of Anthropology</p>
@@ -27,9 +27,9 @@ const Education = () => {
                                 </div>
                                
                                 <div className="education_single_div flex-1">
-                                    <div className="education_single_left">
+                                    {/* <div className="education_single_left">
                                         <FaBookOpen />
-                                    </div>
+                                    </div> */}
                                     <div className="education_single_right">
                                         <div>
                                             <h1 className="text-black text-xl">Shahjalal College,Jagannathpur</h1>
@@ -42,52 +42,35 @@ const Education = () => {
                         </div>
                     </div>
 
-                    {/* <div className="experince_side">
+                    <div className="experince_side">
                        
-                            <h2>Experience</h2>
+                            <h2 className="text-3xl text-center mb-5 mt-10 md:0 ">Experience</h2>
                         
                         <div className="education_div">
                             
                                 <div className="education_single_div">
-                                    <div className="education_single_left probesh_ex">
+                                    {/* <div className="education_single_left probesh_ex">
                                         <i class="fas fa-book-open"></i>
-                                    </div>
+                                    </div> */}
                                     <div className="education_single_right ">
                                         <div>
-                                            <h1>PDN-SOFTWARE</h1>
-                                            <span>-(2019 - Present)</span>
+                                            <h1 className="text-2xl  text-black">Programming Hero</h1> <br />
+                                            <span>-Learning</span>
                                         </div>
-                                        <p>Founder</p>
+                                        
                                         <p className="experince_description">
-                                            • Developing revenue-generating applications at both small
-                                            and large scales • Providing comprehensive maintenance
-                                            support • Improving the user interface • Building apps for
-                                            self-health and helping the nation
+                                            • Front End: HTML, CSS, JAVAsCRIPT, <br/> 
+                                            • Library and Framework: DaisyUI, Nextjs <br />
+                                            • Back End: Nodejs, Expressjs, MongoDB
+                                            
                                         </p>
                                     </div>
                                 </div>
                                
-                                <div className="education_single_div">
-                                    <div className="education_single_left">
-                                        <i class="fas fa-book-open"></i>
-                                    </div>
-                                    <div className="education_single_right">
-                                        <div>
-                                            <h1>Web Designer</h1>
-                                            <span>-(2020 - Present)</span>
-                                        </div>
-                                        <p>Fiverr</p>
-                                        <p className="experince_description">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Totam, esse. Modi fugiat saepe, cum nobis facere
-                                            consequatur velit dolores harum iusto necessitatibus
-                                            minima maxime debitis, magnam eveniet id ex nostrum.
-                                        </p>
-                                    </div>
-                                </div>
+                               
                             
                         </div>
-                    </div> */}
+                    </div>
                 </div>
             {/* </div> */}
         </div>

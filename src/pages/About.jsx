@@ -4,7 +4,7 @@ import probeshPic from '../../public/probesh-deb-nath.jpg'
 
 const About = () => {
   return (
-    <div className="about bg-[#f4f4fa] py-10 " id="about">
+    <div className="about bg-gray-900 py-10 " id="about">
     <div className="container max-w-7xl mx-auto">
      
         <h2 className='text-4xl mb-8 text-center'>About Me</h2>
@@ -23,7 +23,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="about_skills lg:flex  justify-center ">
+        <div className="about_skills bg-white lg:flex  justify-center ">
           <div className="right_side w-full  flex-1" >
        
               <h3 className='px-3'>~I'm Probesh Deb Nath~</h3>
@@ -52,6 +52,7 @@ const About = () => {
            
           </div>
           <div className="silll_progrress flex-1">
+            <h2 className='text-4xl text-black text-center pb-5'>Skills</h2>
             <ul className="box">
               
                 <li>
