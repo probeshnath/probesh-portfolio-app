@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <div className="py-10">
         <h2 className="text-4xl text-center text-orange-500">Services</h2>
-        <div className=" max-w-7xl mx-auto grid grid-cols-1 px-3 md:grid-cols-3 gap-3">
+        <div className=" max-w-7xl mx-auto grid grid-cols-1 py-8 px-3 md:grid-cols-3 gap-3">
         <div className="border p-5 text-center">
               <FaCode className="mx-auto text-4xl pb-2" />
               <h3 className="font-bold pb-2 text-lg">Web Design</h3>
